@@ -251,7 +251,7 @@ function memoryFlipTile(tile,val){
 					document.getElementById('memory_board').innerHTML = "";
 					newBoard();*/
 				}
-			}else if(((memory_values[0]==y) && (memory_values[1]==z)) || ((memory_values[1]==z) && (memory_values[0]==y))){
+			}else if(((memory_values[0]==y) && (memory_values[1]==z)) || ((memory_values[1]==y) && (memory_values[0]==z))){
 				tiles_flipped += 2;
 				memory_values = [];
             	memory_tile_ids = [];
